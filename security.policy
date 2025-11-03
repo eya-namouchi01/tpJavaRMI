@@ -1,0 +1,21 @@
+grant {
+    // Allow RMI to listen, accept, and connect on any port above 1024
+    permission java.net.SocketPermission "*:1024-", "connect,accept,resolve,listen";
+
+    // Allow reading and writing files
+      permission java.util.PropertyPermission "java.rmi.server.codebase", "write";
+
+    // Allows reading class files and resources from the local file system
+    permission java.io.FilePermission "<<ALL FILES>>", "read";
+
+    // Allows writing to the RMI logCalls property to enable logging
+    permission java.util.PropertyPermission "java.rmi.server.logCalls", "write";
+    permission java.util.logging.LoggingPermission "control";
+
+    // Allow setting a SecurityManager
+    permission java.lang.RuntimePermission "setSecurityManager";
+
+    // Allows displaying alert windows that stay on top of other windows
+    permission java.awt.AWTPermission "setWindowAlwaysOnTop";
+
+};

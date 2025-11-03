@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common1/common1.iml" filepath="$PROJECT_DIR$/common1/common1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serveur1/serveur1.iml" filepath="$PROJECT_DIR$/serveur1/serveur1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tpjavaRMI.iml" filepath="$PROJECT_DIR$/.idea/tpjavaRMI.iml" />
+    </modules>
+  </component>
+</project>
