@@ -10,7 +10,7 @@ javac */*.java
 ```
 ## Etape 3: Lancer le serveur HTTP
 ```bash
-cd out/production/clientpackage  
+cd out/production/client  
 python -m http.server 8000
 ```
 ---
