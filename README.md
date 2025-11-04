@@ -6,7 +6,7 @@ Le projet utilise SecurityManageer qui n'est plus pris en charge dans les versio
 
 ## Etape 2: Compiler le projet 
 ```bash
-javac \*/\*.java    
+javac */*.java    
 ```
 ## Etape 3: Lancer le serveur HTTP
 ```bash
